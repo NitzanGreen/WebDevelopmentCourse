@@ -1,0 +1,93 @@
+body 
+{
+    direction:rtl;
+    }
+
+#container{
+    background-image: url(..//images/background1.jpg);
+    background-repeat:no-repeat;
+    Width: 960px;
+    Margin: 0 auto;
+    Height: 1200px;
+    padding-right:50px;
+    margin-top:100px;
+}
+
+h1{
+    text-align:center;
+    padding-top:25px; 
+    font-size:60px;
+    font-family:'Lucida Sans Unicode';
+    }
+
+section.who {
+    margin-right:130px;
+    padding-top:65px;
+    height:110px;
+    width:960px;
+    background-image:url(/images/profile.jpg);
+    background-repeat:no-repeat;
+    background-size:150px;
+    background-position:center;
+    background-position-y:30px;
+}
+
+section.who > p {
+    font-size:20pt;
+}
+
+section.what {
+    height:60px;
+    padding:25px;
+    margin-bottom:100px;
+}
+
+h2{
+   font-family:'Lucida Sans Unicode';
+   font-size:40px;
+   }
+
+section.what > p,ul {
+    font-size:20pt;
+}
+
+section.what>ul {
+    padding-right:25px;
+    padding-top:10px;
+}
+
+section.where>ul {
+    padding-right:50px;
+    padding-top:10px;
+    padding-bottom:20px;
+    }
+
+section.where > p {
+    font-size:20pt;
+    padding-right:5px;
+}
+
+section.findme > p.mail {
+    height: 50px;
+    margin-top:20px;
+}
+
+.mail { 
+   width:100px;
+   height:50px;
+   background-image:url('../images/Gmail.png');
+   background-repeat:no-repeat;
+   background-size:50px 50px;
+   position:absolute;
+   padding-left:20px;
+}
+
+
+.FB {
+    height:43px;
+    width:43px;
+    background-image:url('/images/facebook.png');
+    background-repeat:no-repeat;
+    background-size:50px 50px;
+    position:absolute;
+   }

@@ -1,75 +1,57 @@
-body 
-{
+body {
     direction:rtl;
+    background-image: url(..//images/background_pale.jpg);
+    background-repeat:round;
+    background-size:cover;
     }
 
 #container{
-    background-image: url(..//images/background1.jpg);
-    background-repeat:no-repeat;
     Width: 960px;
     Margin: 0 auto;
-    Height: 1200px;
+    Height: 1100px;
     padding-right:50px;
-    margin-top:100px;
+    padding-top:20px;
 }
 
 h1{
     text-align:center;
-    padding-top:25px; 
+    padding-top:45px; 
     font-size:60px;
     font-family:'Lucida Sans Unicode';
+    color:darkred;
     }
 
-section.who {
-    margin-right:130px;
-    padding-top:65px;
-    height:110px;
-    width:960px;
+.who {
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:750px;
+    width:720px;
     background-image:url(/images/profile.jpg);
     background-repeat:no-repeat;
-    background-size:150px;
+    background-size:400px;
     background-position:center;
-    background-position-y:30px;
+    background-position-y:310px;
 }
 
-section.who > p {
-    font-size:20pt;
-}
-
-section.what {
-    height:60px;
-    padding:25px;
-    margin-bottom:100px;
+.who p{
+margin-top:20px;
 }
 
 h2{
    font-family:'Lucida Sans Unicode';
-   font-size:40px;
+   font-size:30px;
    }
 
-section.what > p,ul {
-    font-size:20pt;
-}
 
-section.what>ul {
-    padding-right:25px;
-    padding-top:10px;
-}
-
-section.where>ul {
-    padding-right:50px;
-    padding-top:10px;
-    padding-bottom:20px;
-    }
-
-section.where > p {
-    font-size:20pt;
-    padding-right:5px;
-}
-
-section.findme > p.mail {
+.findme {
     height: 50px;
-    margin-top:20px;
+    margin-top:70px;
+    margin-right:70px;
+}
+
+.findme h2 {
+    padding-bottom:10px;
 }
 
 .mail { 
@@ -91,3 +73,152 @@ section.findme > p.mail {
     background-size:50px 50px;
     position:absolute;
    }
+
+
+.army{
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:460px;
+    width:720px;
+    background-image:url(/images/Misrad.png);
+    background-repeat:no-repeat;
+    background-size:170px;
+    background-position:center;
+    background-position-y:260px;
+}
+
+.army p {
+margin-top:20px;
+}
+
+.education {
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:480px;
+    width:720px;
+}
+.education p {
+margin-top:15px;
+}
+.education h2 {
+    padding-bottom:10px;
+}
+
+.basic {
+    font-size: 15pt;
+    margin-right: 70px;
+    padding-top: 35px;
+    height: 230px;
+    width: 750px;
+    background-image:url(/images/london.jpg);
+    background-repeat:no-repeat;
+    background-size:220px;
+    background-position:left;
+    background-position-y:20px;
+}
+
+.basic p{
+    width:360px;
+    text-align:right;
+    padding-bottom:25px;
+}
+
+.highway, .robo, .film{
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:190px;
+    width:750px;
+}
+
+.highway, .film{
+    margin-top:-60px;
+}
+
+.salsa{
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:130px;
+    width:750px;
+}
+
+.JB, .cooking{
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:210px;
+    width:750px;
+}
+
+.art{
+    font-size:15pt;
+    margin-right:70px;
+    padding-top:35px;
+    height:330px;
+    width:750px;
+    text-align:right;
+    background-image:url(/images/cactus.PNG);
+    background-repeat:no-repeat;
+    background-size:250px;
+    background-position:left;
+    background-position-y:60px;
+    }
+
+.art p{
+    width:360px;
+}
+p {
+margin-top:15px;
+}
+h2 {
+    padding-bottom:10px;
+}
+
+
+
+
+/*תפריט*/
+#nav1 ul {
+    list-style: none;
+    width: 800px; 
+    margin: 0 auto;
+    padding-bottom:30px;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: darkred;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 180px;
+            height: 35px;
+            padding-top: 15px;
+            font-size:20px;
+        }
+
+            #nav1 ul li a:hover {
+                background-color:palevioletred;
+                color:white;
+            }
+
+            /*#nav1 ul li a:active {
+                background-color:lightpink;
+                color:darkred;
+            }*/
+  
+           nav ul li a#selected {
+              background-color:lightpink;
+              color:darkred;
+              border-width:5px;
+              font-weight:700;
+             
+             }
